@@ -58,7 +58,7 @@ const Navbar1 = ({
     title: "Note App",
   },
   menu = [
-    { title: "Home", url: "#" },
+    { title: "Home", url: "/" },
    
   ],
   auth = {
