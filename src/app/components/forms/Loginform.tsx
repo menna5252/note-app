@@ -51,7 +51,7 @@ export default function LoginForm() {
         //    }
             
         //  }
-        const res = await signIn('credentials',{...values,redirect:false })
+        const res = await signIn('credentials',{...values,redirect:false, callbackUrl:'/'})
         console.log('res',res)
         
         if(res?.ok){
