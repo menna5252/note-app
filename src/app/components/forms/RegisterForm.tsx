@@ -18,6 +18,7 @@ import { RegisterFormSchema, RegisterFormType } from '../../../schema/register.s
 import { toast } from 'sonner'
 import { useRouter } from 'next/navigation'
 import { handleRegister } from '../../../actions/register.action'
+import Link from 'next/link'
 
 
 
@@ -137,7 +138,10 @@ export default function RegisterForm() {
             </FormItem>
           )}
         />
+        <div className="flex justify-between">
         <Button type="submit">Create Account</Button>
+<p>Already have Account? <Link href={'login'}>Login</Link></p>
+        </div>
       </form>
     </Form>
   )
