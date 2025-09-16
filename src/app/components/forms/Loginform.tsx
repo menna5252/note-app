@@ -20,6 +20,7 @@ import { toast } from 'sonner'
 import { signIn } from 'next-auth/react'
 import { useRouter } from 'next/navigation'
 import { LoginFormSchema, loginFormType } from '@/schema/login.scheme'
+import Link from 'next/link'
 
 
 
@@ -103,6 +104,7 @@ export default function LoginForm() {
         />
        
         <Button type="submit">Login</Button>
+        <Link href={'/register'}>Register</Link>
       </form>
     </Form>
   )
