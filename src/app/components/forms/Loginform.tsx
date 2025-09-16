@@ -105,7 +105,7 @@ export default function LoginForm() {
        
         <div className="flex justify-between">
         <Button type="submit">Login</Button>
-        <p>you don't have Account?<Link href={'/register'}>Register</Link></p>
+        <p>you don't have Account?<Link href='/register'>Register</Link></p>
         </div>
       </form>
     </Form>

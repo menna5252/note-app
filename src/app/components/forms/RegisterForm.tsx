@@ -140,7 +140,7 @@ export default function RegisterForm() {
         />
         <div className="flex justify-between">
         <Button type="submit">Create Account</Button>
-<p>Already have Account? <Link href={'login'}>Login</Link></p>
+<p>Already have Account? <Link href='login'>Login</Link></p>
         </div>
       </form>
     </Form>
